@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: linear-gradient(#b6ecb1, #ebedeb, #ffffff);
+    background-repeat: no-repeat;
+}
+
+.background {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100;
+    align-items: center;
+    text-align: center;
+    padding-left: 0.6rem;
+    padding-top: 2rem;
+}
+
+li {
+    display: flex;
+    gap: 35px;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 7rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cabeçalho-link a {
+    color: black;
+    font-size: 20px;
+}
+
+.cabeçalho-link a:hover {
+    color: #517e57;
+    transition: 0.3s all;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid rgb(35, 65, 28);
+    color: rgb(35, 65, 28);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    color: rgb(8, 8, 8);
+    background: transparent;
+    border: solid 2px rgb(35, 65, 28);
+    padding: 5px;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(35, 65, 28);
+    color: white;
+    transition: 0.5s;
+}
+
+.texto-contato {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 120px 70px;
+    color: #0a180c;
+}
+.texto-contato span{
+    color: rgb(35, 65, 28);
+}
+
+.redes-contato {
+   display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.redes-contato ul li a img {
+    height: 45px;
+    width: 45px;
+    margin-top: 150px;
+}
+
+.corpo {
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    background-color: #517e57;
+    height: 30px;
+    width: 1540px;
+}
